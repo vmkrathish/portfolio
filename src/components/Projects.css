@@ -1,0 +1,160 @@
+.roadwatch-card {
+  display: grid;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+  gap: 0;
+  overflow: hidden;
+  margin-bottom: 40px;
+  border-color: rgba(242, 184, 75, 0.18);
+}
+
+.roadwatch-card__media {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 32px;
+  background: radial-gradient(circle at 30% 20%, rgba(242, 184, 75, 0.1), transparent 60%), var(--bg-raised);
+  border-right: 1px solid var(--border);
+}
+
+.roadwatch-card__media img {
+  width: 44%;
+  border-radius: 14px;
+  border: 1px solid var(--border-strong);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.4s var(--ease);
+}
+
+.roadwatch-card__media-secondary {
+  margin-top: 40px;
+}
+
+.roadwatch-card:hover .roadwatch-card__media img {
+  transform: translateY(-4px);
+}
+
+.roadwatch-card__body {
+  padding: 34px 36px;
+}
+
+.roadwatch-card__heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.roadwatch-card__icon {
+  border-radius: 9px;
+}
+
+.roadwatch-card__heading h3 {
+  font-size: 21px;
+}
+
+.roadwatch-card__context {
+  font-size: 12.5px;
+  color: var(--warning);
+}
+
+.roadwatch-card__desc {
+  font-size: 14.5px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+.roadwatch-card__section {
+  margin-bottom: 14px;
+}
+
+.roadwatch-card__label {
+  display: block;
+  font-size: 11.5px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-tertiary);
+  margin-bottom: 4px;
+}
+
+.roadwatch-card__section p {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.55;
+}
+
+.roadwatch-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+}
+
+.project-card {
+  padding: 26px 24px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card__tag {
+  align-self: flex-start;
+  margin-bottom: 14px;
+}
+
+.project-card__title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.project-card__desc {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+.project-card__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.project-card__tech-item {
+  font-size: 11.5px;
+  color: var(--text-tertiary);
+  padding: 4px 10px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 900px) {
+  .roadwatch-card {
+    grid-template-columns: 1fr;
+  }
+  .roadwatch-card__media {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+  .projects-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+  .roadwatch-card__media img {
+    width: 40%;
+  }
+}
