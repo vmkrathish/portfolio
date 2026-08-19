@@ -42,12 +42,16 @@ npm run preview
 ## Push to GitHub
 
 ```bash
+cd ~/Desktop/vmk-portfolio
+
 git init
-git add .
-git commit -m "Initial portfolio site"
 git branch -M main
-git remote add origin https://github.com/vmkrathish/<your-repo-name>.git
-git push -u origin main
+git remote add origin https://github.com/vmkrathish/portfolio.git
+git fetch origin
+git add .
+git commit -m "Complete portfolio website"
+
+git push -u origin main --force-with-lease
 ```
 
 ## Editing content
