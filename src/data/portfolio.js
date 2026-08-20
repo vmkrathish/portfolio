@@ -333,15 +333,15 @@ export const timeline = [
 // ----------------------------------------------------------------------------
 export const leadership = [
   {
+    title: 'Main Coordinator, TechAzura ’27',
+    period: '2026',
+    description: 'Leading the organization of TechAzura, the department’s flagship technical symposium.',
+  },
+  {
     title: 'EDC Student President',
     period: '2026–27',
     description: 'Leading the Entrepreneurship Development Cell as elected Student President.',
     featured: true,
-  },
-  {
-    title: 'Main Coordinator, TechAzura ’27',
-    period: '2026',
-    description: 'Leading the organization of TechAzura, the department’s flagship technical symposium.',
   },
   {
     title: 'Coordinator, TechAzura ’26',
@@ -349,14 +349,14 @@ export const leadership = [
     description: 'Coordinated the previous edition of TechAzura.',
   },
   {
+    title: 'Team Lead — AI in Campus Life Documentary',
+    period: '2026',
+    description: 'Led 15+ volunteers through an IIC-competition documentary project, from planning to final presentation.',
+  },
+  {
     title: 'Class Representative',
     period: '1st Year',
     description: 'Represented the class as Class Representative in first year.',
-  },
-  {
-    title: 'Team Lead — AI in Campus Life Documentary',
-    period: '2025',
-    description: 'Led 15+ volunteers through an IIC-competition documentary project, from planning to final presentation.',
   },
 ]
 
