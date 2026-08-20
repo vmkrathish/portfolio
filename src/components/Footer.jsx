@@ -36,7 +36,7 @@ export default function Footer() {
 
       <div className="container footer__bottom">
         <p>
-          © {year} {personal.name}. Built with React &amp; Framer Motion.
+          © {year} {personal.name}. All rights reserved.
         </p>
       </div>
     </footer>
