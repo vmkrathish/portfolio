@@ -169,7 +169,7 @@ export const otherProjects = [
 // invented accuracy figures or dataset names since none were supplied.
 export const mlWork = {
   title: 'Machine Learning Trainee — Hardwin Software',
-  period: '2025',
+  period: '2026',
   description:
     'Practical ML training covering data preprocessing, supervised and unsupervised learning, model training, validation, and deployment workflows. Built Python-based predictive models using Scikit-learn and pandas for real-world datasets.',
   techniques: [
