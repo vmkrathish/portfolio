@@ -142,7 +142,8 @@ export const otherProjects = [
   {
     id: 'ebill',
     name: 'E-Bill Management Software',
-    description:
+      period: '2024',
+description:
       'Commercial billing software built for a real client — SRS Agencies — during 12th grade. Automated invoice creation, customer management, and transaction records. My first production delivery to a real client, before undergraduate study began.',
     technology: ['Python'],
     tag: 'Client Delivery',
