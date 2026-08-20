@@ -248,36 +248,30 @@ export const skillGroups = [
 // ----------------------------------------------------------------------------
 export const timeline = [
   {
-    period: '12th Grade',
+    period: '12th Grade (July 2024)',
     title: 'First client delivery',
     description:
       'Built and delivered commercial billing software (E-Bill Management Software) for SRS Agencies — before undergraduate study even began.',
   },
   {
-    period: '2024',
+    period: 'Sept 2024',
     title: 'Began B.E. CSE at HICET',
     description: 'Started Computer Science Engineering at Hindusthan College of Engineering and Technology, Coimbatore.',
   },
   {
-    period: '1st Year',
+    period: '1st Year (Sept 2024 – Aug 2025)',
     title: 'Class Representative',
     description: 'Served as Class Representative during first year.',
   },
   {
-    period: '2025',
-    title: 'Machine Learning Trainee — Hardwin Software',
-    description:
-      'Completed practical ML training covering the full model lifecycle: preprocessing, training, validation, and deployment.',
-  },
-  {
-    period: '2025',
+    period: 'July 2025',
     title: 'Founded Get My Service (GMS)',
     description: 'Started building GMS — a Flutter + FastAPI service marketplace connecting seekers and providers.',
   },
   {
-    period: '2025',
-    title: 'Roadwatch — IIT Madras CoERS',
-    description: 'Built and presented Roadwatch, a road-safety monitoring app, at the IIT Madras CoERS Road Safety Hackathon.',
+    period: 'Aug 2025',
+    title: 'Smart India Hackathon (SIH) 2025',
+    description: 'Participated in Smart India Hackathon 2025.',
   },
   {
     period: 'Sep 2025',
@@ -285,44 +279,52 @@ export const timeline = [
     description: 'Participated in IDEATHON 2025 hosted by the AI/ML & CSE department and Entrepreneurship Development Cell.',
   },
   {
-    period: '2025',
-    title: 'Coordinator, TechAzura ’26',
-    description: 'Coordinated TechAzura, a department-level technical symposium.',
-  },
-  {
-    period: '2025',
-    title: 'Smart India Hackathon (SIH) 2025',
-    description: 'Participated in Smart India Hackathon 2025.',
-  },
-  {
-    period: '2025',
-    title: 'IIC Competition — Team Lead',
-    description: 'Led a 15+ member interdisciplinary team to produce "AI in Campus Life," a mini documentary, for the Institution Innovation Council competition.',
-  },
-  {
     period: 'Aug 2025 – Apr 2026',
     title: 'Backend Mastery with Django & Postgres',
     description: '9-month backend program under Dr. Ganesh Academy, tutored by Syed Jafer K.',
   },
   {
-    period: 'Jan 30–31, 2026',
+    period: 'Jan 2026',
+    title: 'IIC Competition — Team Lead',
+    description: 'Led a 15+ member interdisciplinary team to produce "AI in Campus Life," a mini documentary, for the Institution Innovation Council competition.',
+  },
+  {
+    period: 'Jan 2026',
     title: 'SREC UTSAVA ’26',
     description: 'Competed in PROMPTOPIA, PitchCraft, and Treasure Hunt at this national-level techno-cultural fest.',
   },
+  {
+    period: 'Feb 2026',
+    title: 'Coordinator, TechAzura ’26',
+    description: 'Coordinated TechAzura, a department-level technical symposium.',
+  },
+  {
+    period: 'May 2026',
+    title: 'Machine Learning Trainee — Hardwin Software',
+    description:
+      'Completed practical ML training covering the full model lifecycle: preprocessing, training, validation, and deployment.',
+  },
+  {
+    period: 'May 2026',
+    title: 'Roadwatch — IIT Madras CoERS',
+    description: 'Built and presented Roadwatch, a road-safety monitoring app, at the IIT Madras CoERS Road Safety Hackathon.',
+  },
+ 
   {
     period: '2026–27',
     title: 'EDC Student President',
     description: 'Elected Student President of the Entrepreneurship Development Cell (EDC) for 2026–27.',
   },
+
   {
-    period: '2026',
-    title: 'Main Coordinator, TechAzura ’27',
-    description: 'Stepped up to lead TechAzura as Main Coordinator.',
-  },
-  {
-    period: 'Aug 1, 2026',
+    period: 'Aug 2026',
     title: 'CMR ThinkFest 3.0',
     description: 'Competed at the national-level project competition hosted by CMR College of Engineering & Technology.',
+  },
+  {
+    period: '2027',
+    title: 'Main Coordinator, TechAzura ’27',
+    description: 'Stepped up to lead TechAzura as Main Coordinator.',
   },
 ]
 

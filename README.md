@@ -41,6 +41,8 @@ npm run preview
 
 ## Push to GitHub
 
+New push:
+
 ```bash
 cd ~/Desktop/vmk-portfolio
 
@@ -52,6 +54,13 @@ git add .
 git commit -m "Complete portfolio website"
 
 git push -u origin main --force-with-lease
+```
+
+Updation:
+```
+git add .
+git commit -m "Update portfolio"
+git push
 ```
 
 ## Editing content
