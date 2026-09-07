@@ -39,29 +39,6 @@ npm run preview
    - **Build output directory:** `dist`
 4. Deploy. `public/_redirects` is already included so client-side routing (if you add any later) won't 404 on refresh.
 
-## Push to GitHub
-
-New push:
-
-```bash
-cd ~/Desktop/vmk-portfolio
-
-git init
-git branch -M main
-git remote add origin https://github.com/vmkrathish/portfolio.git
-git fetch origin
-git add .
-git commit -m "Complete portfolio website"
-
-git push -u origin main --force-with-lease
-```
-
-Updation:
-```
-git add .
-git commit -m "Update portfolio"
-git push
-```
 
 ## Editing content
 
