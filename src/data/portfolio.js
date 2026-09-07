@@ -29,7 +29,7 @@ export const personal = {
     period: '2024 – 2028',
     year: 'III Year CSE',
     graduation: '2028',
-    cgpa: '9.02',
+    cgpa: '8.85',
     cgpaScale: '10',
   },
   about:
@@ -58,7 +58,7 @@ export const socials = {
 // Stat highlights shown in the About section — only figures explicitly
 // supported by the resume / brief.
 export const stats = [
-  { value: '9.02', label: 'CGPA', suffix: '/10' },
+  { value: '8.85', label: 'CGPA', suffix: '/10' },
   { value: '2028', label: 'Expected Graduation' },
   { value: '15+', label: 'Volunteers Led' },
   { value: 'GMS', label: 'Founder / Product' },
